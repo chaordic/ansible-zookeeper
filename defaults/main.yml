@@ -6,6 +6,8 @@ zookeeper_hosts: "{{ansible_fqdn}}:2181"
 monasca_wait_for_period: 30
 run_mode: Deploy
 
+zookeeper_java_version: 7
+
 # Variables only for RedHat family
 monasca_download_dir: "/opt/monasca/"
 zookeeper_version: 3.4.6
